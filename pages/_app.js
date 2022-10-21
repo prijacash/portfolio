@@ -2,7 +2,7 @@ import '../styles/globals.css'
 import NavBar from '../components/navBar'
 
 function MyApp({ Component, pageProps }) {
-  return 
+  return (
     <>
       {/* header */}
       <NavBar />
@@ -11,6 +11,7 @@ function MyApp({ Component, pageProps }) {
       <Component {...pageProps} />
       {/* footer */}
     </>
+  )
 }
 
 export default MyApp
