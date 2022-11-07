@@ -3,6 +3,28 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
+  const skills = ['Java', 'Python', 'JavaScript', 'HTML5', 'CSS', 'MySQL', 'PostgreSQL', 'MongoDB', 'Node', 'Express', 'React']
+
+    const skillDisplay = skills.map((skill, i) =>{
+        return (
+            <div className='skill' key={i}>
+                        <div>
+                            <Image 
+                                src={`/${skill}.png`}
+                                alt={`${skill} logo`}
+                                width = {55}
+                                height = {50}
+                                className='image'
+                            />
+                        </div>
+
+                        <div>
+                            <h4>{skill}</h4>
+                        </div>
+            </div>
+        )
+    })
+
   return (
     <div className={styles.container}>
       <Head>
@@ -11,16 +33,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1>My Portfolio</h1>
+      <h1>{`Welcome to Prija's Portfolio`}</h1>
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Prijas Portfolio</a>
         </h1>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
