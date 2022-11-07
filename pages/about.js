@@ -6,7 +6,7 @@ export default function About() {
         <div>
             <h1>About Me</h1>
 
-            <p className={styles.extraGreen}>Hi Im Prija, I am a Software Engineer now, and I make neat stuff with the codes.</p>
+            <p className={styles.extraGreen}>Hi Im Prija, I am a Software Engineer, and I make neat stuff with the codes.</p>
 
             {/* load image locally */}
             <Image 
