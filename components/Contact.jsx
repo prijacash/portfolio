@@ -6,11 +6,12 @@ export default function Contact() {
     return (
         <div className='mt-10'>
             <div className='flex justify-center mt-1'>
-                <p>Contact Me | </p>
+                <p>Contact Me | 
                     <a href='https://docs.google.com/document/d/1UvjA-Ue6rGHsNs7tKLyBrmKeW-u4oYSmmmYesMX8ehI/edit?usp=sharing'>
                         Resume
                     </a>
-                
+                </p>
+                <br></br>
 
                 <div className='mr-1  transform transition duration-500 hover:scale-110'>
                     <a href='https://www.linkedin.com/in/prijacash/'>
