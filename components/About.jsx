@@ -11,7 +11,7 @@ export default function About() {
                 <img src='https://i.imgur.com/Wg1Ro1q.png' alt='photo of Prija' className='rounded-full mt-5' />
             </div>
             
-            <p className='mt-7'>Hello world! I&#39;m Prija, a full stack software developer based in Orange County.<br></br> I've always had an interest in coding.  After completing the immersive program, I can't wait to further develop my skills.<br></br> I have a strong interest in Crypto and Blockchain technologies.</p>
+            <p className='mt-7'>Hello world! I&#39;m Prija, a full stack software developer based in Orange County.<br></br> I&#39;ve always had an interest in coding.  After completing the immersive program, I can't wait to further develop my skills.<br></br> I have a strong interest in Crypto and Blockchain technologies.</p>
 
 
         </div>
